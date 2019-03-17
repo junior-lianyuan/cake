@@ -1,13 +1,13 @@
 <template>
-    <div class="search-bar"></div>
+    
 </template>
 
 <script>
     export default {
-        name: "SearchBar"
+        name: "SlideBar"
     }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 
 </style>

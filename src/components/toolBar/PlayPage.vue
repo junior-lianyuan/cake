@@ -1,15 +1,15 @@
 <template>
-    <div class="real-play">
+    <div class="play-page">
 
     </div>
 </template>
 
 <script>
     export default {
-        name: "Realplay"
+        name: "PlayPage"
     }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 
 </style>

@@ -1,5 +1,7 @@
 <template>
-    <div class="container"></div>
+    <div class="container">
+        发现
+    </div>
 </template>
 
 <script>

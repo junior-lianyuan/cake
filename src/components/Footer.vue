@@ -1,11 +1,11 @@
 <template>
-    <footer>
+    <footer class="footer">
         <Realplay/>
     </footer>
 </template>
 
 <script>
-    import Realplay from './tools/Realplay.vue'
+    import Realplay from './toolBar/Realplay.vue'
     export default {
         name: "Footer",
         components:{
@@ -14,6 +14,6 @@
     }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 
 </style>

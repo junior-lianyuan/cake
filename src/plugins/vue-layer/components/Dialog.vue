@@ -1,16 +1,13 @@
 <template>
-    <div class="container">
-        <div class="user"></div>
-    </div>
+    
 </template>
 
 <script>
     export default {
-        name: "Mine"
+        name: "Dialog"
     }
 </script>
 
 <style scoped lang="scss">
-
 
 </style>
