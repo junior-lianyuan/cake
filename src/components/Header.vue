@@ -32,19 +32,21 @@
 </script>
 
 <style scoped lang="scss">
-    @import "../assets/_v_color.scss";
-    @import "../assets/_flex_layout.scss";
+    @import "../assets/scss/v_color";
+    @import "../assets/scss/flex_layout";
+    @import "../assets/scss/function";
 
     .nav {
         @include flex-row-container;
-        height: 25px;
-        padding: 10px;
+        height: rem(26);
+        padding: rem(10);
         color: #fff;
         background: $MAIN;
         a {
             display: block;
             flex-grow: 1;
             text-align: center;
+            font-size: rem(16);
             color: #fff;
             text-decoration: none;
         }

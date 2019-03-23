@@ -14,24 +14,25 @@
 </script>
 
 <style scoped lang="scss">
-    @import "../../assets/_v_color.scss";
-    @import "../../assets/_flex_layout.scss";
+    @import "../../assets/scss/v_color";
+    @import "../../assets/scss/flex_layout";
+    @import "../../assets/scss/function";
 
     .search-bar {
-        height: 25px;
-        padding:0 8px 8px 8px;
+        height: rem(26);
+        padding:0 rem(8) rem(8) rem(8);
         color: #fff;
         background-color: $MAIN;
         .search{
             @include flex-align-center;
             width: 100%;
-            height: 25px;
-            line-height: 25px;
-            font-size: 14px;
+            height: rem(26);
+            line-height: rem(26);
+            font-size: rem(14);
             background-color: rgba(0,0,0,0.2);
             .search-icon{
-                width: 14px;
-                height: 14px;
+                width: rem(14);
+                height: rem(14);
             }
         }
     }

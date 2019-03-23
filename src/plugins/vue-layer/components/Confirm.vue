@@ -1,10 +1,10 @@
 <template>
-
+    <div class="confirm"></div>
 </template>
 
 <script>
     export default {
-        name: "Toast"
+        name: "Confirm"
     }
 </script>
 

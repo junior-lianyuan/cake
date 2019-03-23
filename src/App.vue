@@ -20,13 +20,16 @@
 </script>
 
 <style lang="scss">
-    @import "./assets/_v_color.scss";
-    @import "./assets/flex_layout.scss";
+    @import "assets/scss/v_color";
+    @import "assets/scss/flex_layout";
+    @import "assets/scss/function";
 
     html, body {
         margin: 0 !important;
         padding: 0 !important;
         height: 100%;
+        font-size: rem(14);
+        background-color: #fff;
         -webkit-tap-highlight-color: transparent;
     }
 

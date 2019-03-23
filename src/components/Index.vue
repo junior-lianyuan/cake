@@ -11,5 +11,5 @@
 </script>
 
 <style scoped>
-
+    @import "../assets/scss/_function.scss";
 </style>

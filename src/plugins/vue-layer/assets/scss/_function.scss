@@ -1,0 +1,4 @@
+@charset "utf-8";
+@function rem($size,$multiple:100) {
+  @return $size/$multiple + rem;
+}

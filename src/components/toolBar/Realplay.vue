@@ -47,26 +47,26 @@
 </script>
 
 <style scoped lang="scss">
-    @import "../../assets/_v_color.scss";
-    @import "../../assets/_flex_layout.scss";
+    @import "../../assets/scss/v_color";
+    @import "../../assets/scss/flex_layout";
+    @import "../../assets/scss/_function.scss";
 
     .real-play {
         @include flex-row-container;
-        padding: 8px;
+        padding: rem(8);
         border: solid #ddd;
         border-width: 1px 0 1px 0;
     }
 
     .album {
-        width: 45px;
-        height: 45px;
-        margin-right: 10px;
+        width: rem(45);
+        height: rem(45);
+        margin-right: rem(10);
         border-radius: 50%;
     }
 
     .song-info {
         @include flex-row-container;
-        font-size: 14px;
         .singer {
             color: #ccc;
         }
@@ -75,7 +75,7 @@
     .play-bar {
         color: $MAIN;
         .play-icon {
-            margin-right: 10px;
+            margin-right: rem(10);
         }
     }
 </style>
