@@ -1,7 +1,9 @@
 <template>
     <div class="app">
         <Header/>
-        <router-view></router-view>
+        <transition name="slide">
+            <router-view></router-view>
+        </transition>
         <Footer/>
     </div>
 </template>
@@ -37,5 +39,14 @@
         @include flex-flow-container;
         height: 100%;
         font-family: 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+        overflow: hidden;
+    }
+
+    .slide-enter-active, .slide-leave-active {
+        transform: translateX(0);
+        transition: transform .2s;
+    }
+    .slide-enter, .slide-leave-to /* .fade-leave-active below version 2.1.8 */ {
+        transform: translateX(100%);
     }
 </style>

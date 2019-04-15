@@ -50,6 +50,11 @@
             color: #fff;
             text-decoration: none;
         }
+        .router-link-active{
+            line-height: rem(16);
+            font-size: rem(18);
+            font-weight: 700;
+        }
         .tabs {
             @include flex-row-container;
             width: 80%;

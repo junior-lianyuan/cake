@@ -1,19 +1,15 @@
 <template>
-    <transition name="up">
-        <div :class="type">
-            <v-icon name="check" class="icon" v-if="type === 'prompt'"></v-icon>
-            {{msg}}
-        </div>
-    </transition>
+    <div :class="type">
+        <v-icon name="check" class="icon" v-if="type === 'prompt'"></v-icon>
+        {{msg}}
+    </div>
 </template>
 
 <script>
     export default {
         name: "Prompt",
         data() {
-            return {
-
-            }
+            return {}
         },
         methods: {
             alignCenter: function () {
@@ -60,7 +56,7 @@
         z-index: 999;
         color: #fff;
         top: 50%;
-        .icon{
+        .icon {
             display: block;
             width: rem(35);
             height: rem(35);
@@ -71,7 +67,8 @@
     .up-enter {
         bottom: 0;
     }
-    .up-enter-alive{
+
+    .up-enter-alive {
         transition: bottom .5s ease;
     }
 </style>
